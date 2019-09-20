@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
-    DB: 'mongodb+srv://admin:admin@crud-angular-aomyl.mongodb.net/test?retryWrites=true&w=majority'
+    DB: process.env.DB
   };
